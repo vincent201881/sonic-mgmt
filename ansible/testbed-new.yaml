@@ -158,7 +158,7 @@ devices:
             username:                 
             password:               
         ansible:
-            ansible_host: 10.251.0.192              # source: sonic-mgmt/ansible/veos
+            ansible_host: 10.251.0.100              # source: sonic-mgmt/ansible/veos
             ansible_ssh_pass: 
             ansible_become_pass: 
             sonicadmin_user: 

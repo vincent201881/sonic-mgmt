@@ -10,3 +10,11 @@ vms-s6100-t0,vms4-1,t0-64,docker-ptf-sai-brcm,ptf-unknown,10.255.0.181/24,,serve
 vms-s6100-t1,vms4-1,t1-64,docker-ptf-sai-brcm,ptf-unknown,10.255.0.182/24,,server_1,VM0100,lab-s6100-01,Tests Dell S6100 vms
 vms-s6100-t1-lag,vms5-1,t1-64-lag,docker-ptf-sai-brcm,ptf-unknown,10.255.0.183/24,,server_1,VM0100,lab-s6100-01,Tests Dell S6100 vms
 vms-example-ixia-1,vms6-1,t0-64,docker-ptf-ixia,example-ixia-ptf-1,10.0.0.30/32,,server_6,VM0600,example-s6100-dut-1,superman
+cel_slx_t0,ptf2,t0-31,docker-ptf,ptf_ptf2,10.251.0.110/24,,server_2,VM0300,cel-seastone-01,Tests ptf
+cel_slx_t1,ptf2,t1-31,docker-ptf,ptf-unknown,10.251.0.110/24,,server_3,VM0400,cel-seastone-01,Tests ptf
+cel_slx2_t0,ptf2,t0-31,docker-ptf,ptf-unknown,10.251.0.110/24,,server_2,VM0300,cel-seastone2-01,Tests ptf
+cel_slx2_t1,ptf2,t1-31,docker-ptf,ptf-unknown,10.251.0.110/24,,server_3,VM0400,cel-seastone2-01,Tests ptf
+cel_e1031_t0,ptf1,t0-e1031,docker-ptf,ptf-unknown,10.250.0.110/24,,server_1,VM0100,cel-e1031-01,Tests ptf
+cel_e1031_t1,ptf1,t1-e1031,docker-ptf,ptf-unknown,10.250.0.110/24,,server_1,VM0200,cel-e1031-01,Tests ptf
+cel_sil_t0,ptf1,t0-31,docker-ptf,ptf-unknown,10.250.0.110/24,,server_1,VM0100,cel-silverstone-01,Tests ptf
+cel_sil_t1,ptf1,t1-31,docker-ptf,ptf-unknown,10.250.0.110/24,,server_4,VM0200,cel-silverstone-01,Tests ptf
